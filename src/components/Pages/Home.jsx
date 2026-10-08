@@ -3,7 +3,7 @@ import appwriteService from '../../appwrite/config'
 import { useState  , useEffect} from 'react'
 import Container from '../container/container'
 import { Link } from 'react-router-dom'
-import PostCard from '../Postcard'
+import PostCard from '../PostCard'
 import { useSelector } from 'react-redux'
 function Home() {
     const [post , setPost] = useState([])

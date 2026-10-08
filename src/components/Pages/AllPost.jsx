@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { useEffect } from 'react'
 import appwriteService from '../../appwrite/config'
 import container from '../container/container'
-import PostCard from '../Postcard'
+import PostCard from '../PostCard'
 function AllPost() {
     const [Post , setPost] = useState([])
     useEffect(() =>{

@@ -4,7 +4,7 @@ import Logo from "./Logo/Logo";
 import container from "./container/container";
 import LogoutBtn from "./Header/LogoutBtn";
 import Input from "./Input";
-import Postcard from "./Postcard";
+import Postcard from "./PostCard";
 import Select from "./Select";
 import Button from "./Button";
 import RTE from "./RTE";
